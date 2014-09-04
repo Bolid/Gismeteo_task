@@ -73,7 +73,7 @@ public class Histogram extends View {
                 time = "1";
             if (i%8==0){
                 date = context.getResources().getStringArray(R.array.date)[(int)Math.floor(i/8)];
-                histogramDates[(int)Math.floor(i/8)] = new HistogramDate(date, posX, widthBar);
+                histogramDates[(int)Math.floor(i/8)] = new HistogramDate(date, posX, posX, 8 * widthBar + posX, widthBar);
                 indexDate++;
             }
             posX += widthBar;
