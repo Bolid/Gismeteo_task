@@ -17,7 +17,7 @@ public class MyActivity extends Activity {
 
     private int[] createRandomTemp(){
         Random random = new Random();
-        int[] masTemp = new int[168];
+        int[] masTemp = new int[56];
         for (int i = 0; i < masTemp.length; i++){
             masTemp[i] = random.nextInt(10)+10;
             Log.i("TESTING", "Елементы массива = " + masTemp[i]);

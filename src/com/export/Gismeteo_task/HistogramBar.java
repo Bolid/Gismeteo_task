@@ -11,24 +11,30 @@ public class HistogramBar {
 
     private String temperature;
 
+    private String time;
+
     private float widthBar;
 
     private float posX;
 
     private float posY;
 
-    public HistogramBar(float posX,float posY, String temperature, float widthBar, HistogramColor color){
-        this.RED = color.RED;
-        this.GREEN = color.GREEN;
-        this.BLUE = color.BLUE;
-        this.posX = posX;
+    public HistogramBar(float posY, String temperature, String time, float widthBar, HistogramColor color){
+        this.RED = color.getRED();
+        this.GREEN = color.getGREEN();
+        this.BLUE = color.getBLUE();
         this.posY = posY;
         this.temperature = temperature;
+        if (time.length() < 2)
+            this.time = "0" + time;
+        else
+            this.time = time;
         this.widthBar = widthBar;
-        Log.i("ПАРАМЕТРА", posX + "  " + posY + "  " + widthBar);
     }
 
-    public void drawBar(Canvas canvas, Paint paint/*, int posX*/){
+    public void drawBar(Canvas canvas, Paint paint, float posX){
+        this.posX = posX;
+
         paint.setColor(Color.argb(200, RED, GREEN, BLUE));
         paint.setStyle(Paint.Style.FILL);
         paint.setStrokeWidth(6);
@@ -37,12 +43,14 @@ public class HistogramBar {
         canvas.restore();
 
         drawTemperature(canvas, paint);
+        drawTime(canvas, paint);
+        posX+=widthBar;
     }
 
     private void drawTemperature(Canvas canvas, Paint paint){
         paint.setColor(Color.WHITE);
-        paint.setStrokeWidth(2);
-        paint.setTextSize(24);
+        paint.setStrokeWidth(3);
+        paint.setTextSize(28);
         paint.setTextAlign(Paint.Align.CENTER);
 
         if (Integer.parseInt(temperature) < 0)
@@ -52,5 +60,19 @@ public class HistogramBar {
         else
             canvas.drawText(temperature, posX + widthBar / 2, posY - 20, paint);
         canvas.restore();
+    }
+
+    private void drawTime(Canvas canvas, Paint paint){
+        paint.setColor(Color.GRAY);
+        paint.setStrokeWidth(2);
+        paint.setTextSize(26);
+        paint.setTextAlign(Paint.Align.CENTER);
+        canvas.drawText(time, posX + widthBar / 2, 100, paint);
+        canvas.restore();
+    }
+
+    public HistogramColor getColorBar(HistogramColor histogramColor){
+        histogramColor.setColor(RED, GREEN, BLUE);
+        return histogramColor;
     }
 }

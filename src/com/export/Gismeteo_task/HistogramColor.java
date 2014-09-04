@@ -2,7 +2,7 @@ package com.export.Gismeteo_task;
 
 
 public class HistogramColor {
-    public int RED, GREEN, BLUE;
+    private int RED, GREEN, BLUE;
     public static int convertColorRGBtoHEX(int RED, int GREEN, int BLUE){
         String hexStr = "";
 
@@ -22,5 +22,23 @@ public class HistogramColor {
             hexStr += Integer.toHexString(BLUE);
 
         return Integer.parseInt(hexStr, 16);
+    }
+
+    public void setColor(int RED, int GREEN, int BLUE){
+        this.RED = RED;
+        this.GREEN = GREEN;
+        this.BLUE = BLUE;
+    }
+
+    public int getRED(){
+        return RED;
+    }
+
+    public int getGREEN(){
+        return GREEN;
+    }
+
+    public int getBLUE(){
+        return BLUE;
     }
 }
