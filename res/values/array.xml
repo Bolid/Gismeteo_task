@@ -46,4 +46,15 @@
         <item>249</item>      <!---30-->
         <item>175</item>      <!---40-->
     </integer-array>
+
+    <!--date-->
+    <string-array name="date">
+        <item>ПН 01.09.2014</item>
+        <item>ВТ 02.09.2014</item>
+        <item>СР 03.09.2014</item>
+        <item>ЧТ 04.09.2014</item>
+        <item>ПТ 05.09.2014</item>
+        <item>СБ 06.09.2014</item>
+        <item>ВС 07.09.2014</item>
+    </string-array>
 </resources>

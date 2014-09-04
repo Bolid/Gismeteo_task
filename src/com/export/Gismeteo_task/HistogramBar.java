@@ -65,9 +65,15 @@ public class HistogramBar {
     private void drawTime(Canvas canvas, Paint paint){
         paint.setColor(Color.GRAY);
         paint.setStrokeWidth(2);
-        paint.setTextSize(26);
+        paint.setTextSize(32);
         paint.setTextAlign(Paint.Align.CENTER);
         canvas.drawText(time, posX + widthBar / 2, 100, paint);
+
+        paint.setColor(Color.GRAY);
+        paint.setStrokeWidth(2);
+        paint.setTextSize(16);
+        paint.setTextAlign(Paint.Align.CENTER);
+        canvas.drawText("00", posX + widthBar / 2 + 34, 90, paint);
         canvas.restore();
     }
 

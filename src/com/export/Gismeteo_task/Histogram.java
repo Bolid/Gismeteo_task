@@ -2,6 +2,7 @@ package com.export.Gismeteo_task;
 
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.*;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -17,6 +18,8 @@ public class Histogram extends View {
     private HistogramBar[] histogramBars;
 
     private HistogramBorder[] histogramBorders;
+
+    private HistogramDate[] histogramDates;
 
     private HistogramColor histogramColor = new HistogramColor();
 
@@ -51,6 +54,7 @@ public class Histogram extends View {
         scroller = new OverScroller(context);
         histogramBars = new HistogramBar[masTemp.length];
         histogramBorders = new HistogramBorder[masTemp.length];
+        histogramDates = new HistogramDate[masTemp.length / 8];
     }
 
     private void init(Canvas canvas){
@@ -60,11 +64,18 @@ public class Histogram extends View {
         getStepBar();
         calculateZero();
         String time = "1";
+        String date;
+        int indexDate = 0;
         for (int i = 0; i < masTemp.length; i++){
             histogramBars[i] = new HistogramBar((heightScreen / 2 - ((masTemp[i] - posZero) * stepBar)), String.valueOf(masTemp[i]), time, widthBar, calculateColor(masTemp[i]));
             time = String.valueOf(3 + Integer.valueOf(time));
             if (Integer.valueOf(time) > 22)
                 time = "1";
+            if (i%8==0){
+                date = context.getResources().getStringArray(R.array.date)[(int)Math.floor(i/8)];
+                histogramDates[(int)Math.floor(i/8)] = new HistogramDate(date, posX, widthBar);
+                indexDate++;
+            }
             posX += widthBar;
             if (i != masTemp.length - 1)
                 histogramBorders[i] = new HistogramBorder((heightScreen / 2 - ((masTemp[i] - posZero) * stepBar)), stepBar, masTemp[i] - masTemp[i + 1]);
@@ -115,6 +126,11 @@ public class Histogram extends View {
                 histogramBorders[i].setColorStop(histogramBars[i + 1].getColorBar(histogramColor));
                 histogramBorders[i].drawBorder(canvas, paintForBorder, posX);
             }
+            if (i%8 == 0)
+                if ((int)Math.floor(i/8) < histogramDates.length - 1 /*& (int)Math.floor(i/8) > 1*/)
+                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, histogramDates[(int)Math.floor(i/8) + 1].getPosX(), histogramDates[(int)Math.floor(i/8)].getPosX(), posX);
+            else
+                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8, posX);
             canvas.restore();
         }
         canvas.save();
