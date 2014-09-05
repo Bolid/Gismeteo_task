@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="temp1">#ffff0000</color>   <!--+40-->
+    <color name="temp2">#ffff7800</color>   <!--+30-->
+    <color name="temp3">#ffffd300</color>   <!--+20-->
+    <color name="temp4">#ff68d910</color>   <!--+10-->
+    <color name="temp5">#ffc8efa7</color>   <!--+1-->
+    <color name="temp6">#ffc8f0ff</color>   <!---0-->
+    <color name="temp7">#ff20c5ff</color>   <!---10-->
+    <color name="temp8">#ff1045ff</color>   <!---20-->
+    <color name="temp9">#ff6700f9</color>   <!---30-->
+    <color name="temp10">#ff5600af</color>  <!---40-->
+</resources>
