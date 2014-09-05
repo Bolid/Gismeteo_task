@@ -38,13 +38,13 @@ public class Histogram extends View {
 
     private int[] masTemp;
 
-    private float widthBar, stepBar, posZero, posX, xOffset = 0;
+    private float widthBar, stepBar, posZero, posX, xOffset = 0, distance;
 
     private PositionElementHistogram posElem = new PositionElementHistogram();
 
     private String orientationScreen = "";
 
-    private boolean startInit  = false;
+    private boolean startInit  = false, fling = false;
 
     public Histogram(Context context, int[] masTemp) {
         super(context);
@@ -73,7 +73,7 @@ public class Histogram extends View {
                 time = "1";
             if (i%8==0){
                 date = context.getResources().getStringArray(R.array.date)[(int)Math.floor(i/8)];
-                histogramDates[(int)Math.floor(i/8)] = new HistogramDate(date, posX, widthBar);
+                histogramDates[(int)Math.floor(i/8)] = new HistogramDate(date, posX, posX, 8 * widthBar + posX, widthBar);
                 indexDate++;
             }
             posX += widthBar;
@@ -128,13 +128,13 @@ public class Histogram extends View {
             }
             if (i%8 == 0)
                 if ((int)Math.floor(i/8) < histogramDates.length - 1 /*& (int)Math.floor(i/8) > 1*/)
-                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, histogramDates[(int)Math.floor(i/8) + 1].getPosX(), histogramDates[(int)Math.floor(i/8)].getPosX(), posX);
+                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, /*histogramDates[(int)Math.floor(i/8) + 1].getPosX()*/distance, histogramDates[(int)Math.floor(i/8)].getPosX(), posX, fling);
             else
-                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8, posX);
+                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8, posX, fling);
             canvas.restore();
         }
-        canvas.save();
-        canvas.translate(-xOffset, 0);
+        //canvas.save();
+        //canvas.translate(-xOffset, 0);
         canvas.restore();
     }
 
@@ -193,6 +193,9 @@ public class Histogram extends View {
         @Override
         public boolean onScroll(MotionEvent event1, MotionEvent event2, float distanceX, float distanceY) {
             xOffset += distanceX;
+            distance = distanceX;
+            fling = false;
+            Log.i("Позици даты: dis dis", String.valueOf(distance));
             if (xOffset < 0)
                 xOffset = 0;
             if (Math.abs(xOffset) > masTemp.length * widthBar - getMeasuredWidth())
@@ -203,6 +206,8 @@ public class Histogram extends View {
 
         @Override
         public boolean onFling(MotionEvent event1, MotionEvent event2, float velocityX, float velocityY) {
+            Log.i("Позици даты: dis velo", String.valueOf(velocityX));
+            fling = true;
             scroller.fling((int) xOffset, 0, (int) -velocityX, 0, 0, (int) (masTemp.length * widthBar - getMeasuredWidth()), 0, 0);
             return true;
         }
