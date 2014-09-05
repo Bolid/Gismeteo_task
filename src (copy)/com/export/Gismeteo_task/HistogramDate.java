@@ -23,20 +23,6 @@ public class HistogramDate {
         this.widthBar = widthBar;
         this.posStart = posStart;
         this.posStop = posStop;
-
-        Log.i("Позици даты:", date +"    " +posStop +"  НАЧАЛО!");
-    }
-
-    public void drawDate(Canvas canvas, Paint paint, float posX1, float posX2, float xOffset, boolean fling){
-        int heightScreen = canvas.getWidth();
-        Log.i("Позици даты:", date + ". posXX: " + posXX +". posXXX: " + posXXX + ". xOffset: " + xOffset + ". posX1: " + posX1 + ". posStop: " + posStop +". posStop1: " + posStop1);
-        Log.i("Позици даты:", date + ". Разница: " + String.valueOf(posXX - posXXX));
-        if(!fling)
-            posXX = posX1;
-        posStop -= posX1;
-
-        posXX = posXXX;
-        posXXX = xOffset - widthBar;
     }
 
     public void drawDate(Canvas canvas, Paint paint, float posX1, float posX2, float xOffset){
@@ -46,7 +32,6 @@ public class HistogramDate {
         posXX = posXXX;
         posXXX = xOffset - widthBar;
         Log.i("Позици даты:", date + "   " + posStop + "   " + posXX + "   " + posXXX + "   " + xOffset + "   " + posStop +"   " + posStop1);
-
         if (posX < heightScreen && posX > 1)
             posX = posX * posStop / posStop1;
         else if (posX < 1)

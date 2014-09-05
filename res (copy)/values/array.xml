@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--HOT-->
+    <integer-array name="colorRED_HOT"><item>255</item>
+        <item>200</item>      <!--0-->
+        <item>104</item>      <!--+10-->
+        <item>255</item>      <!--+20-->
+        <item>255</item>      <!--+30-->
+        <item>255</item>      <!--+40-->
+    </integer-array>
+    <integer-array name="colorGREEN_HOT">
+        <item>240</item>      <!--0-->
+        <item>217</item>      <!--+10-->
+        <item>211</item>      <!--+20-->
+        <item>120</item>      <!--+30-->
+        <item>0</item>        <!--+40-->
+    </integer-array>
+    <integer-array name="colorBLUE_HOT">
+        <item>255</item>      <!--0-->
+        <item>16</item>       <!--+10-->
+        <item>0</item>        <!--+20-->
+        <item>0</item>        <!--+30-->
+        <item>0</item>        <!--+40-->
+    </integer-array>
+
+    <!--COOL-->
+    <integer-array name="colorRED_COOL"><item>255</item>
+        <item>200</item>      <!--0-->
+        <item>32</item>       <!---10-->
+        <item>16</item>       <!---20-->
+        <item>103</item>      <!---30-->
+        <item>86</item>       <!---40-->
+    </integer-array>
+    <integer-array name="colorGREEN_COOL">
+        <item>240</item>      <!--0-->
+        <item>197</item>      <!---10-->
+        <item>69</item>       <!---20-->
+        <item>0</item>        <!---30-->
+        <item>0</item>        <!---40-->
+    </integer-array>
+    <integer-array name="colorBLUE_COOL">
+        <item>255</item>      <!--0-->
+        <item>255</item>      <!---10-->
+        <item>255</item>      <!---20-->
+        <item>249</item>      <!---30-->
+        <item>175</item>      <!---40-->
+    </integer-array>
+
+    <!--date-->
+    <string-array name="date">
+        <item>ПН 01.09.2014</item>
+        <item>ВТ 02.09.2014</item>
+        <item>СР 03.09.2014</item>
+        <item>ЧТ 04.09.2014</item>
+        <item>ПТ 05.09.2014</item>
+        <item>СБ 06.09.2014</item>
+        <item>ВС 07.09.2014</item>
+    </string-array>
+</resources>
