@@ -2,7 +2,7 @@ package com.export.Gismeteo_task;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
+import com.export.Gismeteo_task.Histogram.Histogram;
 
 import java.util.Random;
 
@@ -19,8 +19,7 @@ public class MyActivity extends Activity {
         Random random = new Random();
         int[] masTemp = new int[56];
         for (int i = 0; i < masTemp.length; i++){
-            masTemp[i] = random.nextInt(10)+10;
-            Log.i("TESTING", "Елементы массива = " + masTemp[i]);
+            masTemp[i] = random.nextInt(81)-40;
         }
         return masTemp;
     }

@@ -6,7 +6,7 @@
         >
     <view android:layout_width="fill_parent"
           android:layout_height="wrap_content"
-          class="com.export.Gismeteo_task.Histogram" android:id="@+id/view" android:layout_gravity="center"
+          class="com.export.Gismeteo_task.Histogram.Histogram" android:id="@+id/view" android:layout_gravity="center"
           android:layout_alignParentTop="false" android:layout_centerVertical="true"/>
 </RelativeLayout>
 
