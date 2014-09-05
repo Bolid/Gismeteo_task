@@ -11,72 +11,18 @@
     </option>
     <option name="selection" value="[Full]" />
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ПН" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c09c2061-9515-41f1-badc-321e2bd11b8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest (copy).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gismeteo_task (copy).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ant (copy).properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build (copy).xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen (copy)/com/export/Gismeteo_task/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen (copy)/com/export/Gismeteo_task/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen (copy)/com/export/Gismeteo_task/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs (copy)/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/local (copy).properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/Gismeteo_task.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/Gismeteo_task.unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/Histogram$MyDetectorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/Histogram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/HistogramBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/HistogramBorder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/HistogramColor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/HistogramDate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/MyActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/MyDetectorListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/PositionElementHistogram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out (copy)/production/Gismeteo_task/com/export/Gismeteo_task/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proguard-project (copy).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project (copy).properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/layout/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/values/array.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/values/color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res (copy)/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/Histogram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/HistogramBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/HistogramBorder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/HistogramColor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/HistogramDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/MyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/MyDetectorListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/PositionElementHistogram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/HistogramDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/MyDetectorListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/PositionElementHistogram.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/HistogramBar.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramBar.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/HistogramBorder.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramBorder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/HistogramColor.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramColor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java" afterPath="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java" />
     </list>
     <ignored path="Gismeteo_task.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409677723553" ignored="false" />
-    <file path="/Histogram.java" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409907695421" ignored="false" />
+    <file path="/Histogram.java" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409912956617" ignored="false" />
     <file path="/color.xml" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409683628751" ignored="false" />
     <file path="/strings.xml" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409686445596" ignored="false" />
     <file path="/array.xml" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409816633764" ignored="false" />
@@ -85,7 +31,7 @@
     <file path="/HistogramBorder.java" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409770100818" ignored="false" />
     <file path="/a.dummy" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409745811195" ignored="false" />
     <file path="/Dummy.txt" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409895078551" ignored="false" />
-    <file path="/HistogramDate.java" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409909066502" ignored="false" />
+    <file path="/HistogramDate.java" changelist="c09c2061-9515-41f1-badc-321e2bd11b8f" time="1409918443049" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +96,7 @@
       <file leaf-file-name="Histogram.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="8" selection-start="4295" selection-end="4295" vertical-scroll-proportion="0.0">
+            <state line="127" column="128" selection-start="4248" selection-end="4248" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistogramDate.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HistogramDate.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+            <state line="34" column="39" selection-start="940" selection-end="940" vertical-scroll-proportion="0.95951414">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,10 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="50" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12145749">
+            <state line="2" column="50" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -247,10 +193,11 @@
         <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/HistogramBar.java" />
         <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/MyActivity.java" />
         <option value="$PROJECT_DIR$/src (copy)/com/export/Gismeteo_task/Histogram.java" />
-        <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java" />
         <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramBar.java" />
         <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramColor.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java" />
+        <option value="$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java" />
       </list>
     </option>
   </component>
@@ -524,7 +471,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1026" height="577" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -534,14 +481,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45057473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68505746" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24744377" sideWeight="0.6758621" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24744377" sideWeight="0.6758621" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32413793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -657,33 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="8" selection-start="4295" selection-end="4295" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="8" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="46" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
@@ -709,8 +629,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="101" selection-end="101" vertical-scroll-proportion="0.12145749">
+        <state line="2" column="50" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="8" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/Histogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="128" selection-start="4248" selection-end="4248" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/export/Gismeteo_task/Histogram/HistogramDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="39" selection-start="940" selection-end="940" vertical-scroll-proportion="0.95951414">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -122,7 +122,10 @@ public class Histogram extends View {
                 histogramBorders[i].drawBorder(canvas, paintForBorder, posX);
             }
             if (i%8 == 0)
-                histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, posX);
+                if ((int)Math.floor(i/8) < histogramDates.length - 1)
+                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, posX, histogramDates[(int)Math.floor(i/8) + 1].getPosX());
+                else
+                    histogramDates[(int)Math.floor(i/8)].drawDate(canvas, paintForBar, posX, histogramDates[(int)Math.floor(i/8)].getPosX() + widthBar * 8);
             canvas.restore();
         }
         canvas.save();
